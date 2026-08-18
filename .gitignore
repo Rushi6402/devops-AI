@@ -36,3 +36,6 @@ Thumbs.db
 .env
 .bedrock list-foundation-models   --region us-east-1   --query modelSummaries[?contains(modelId, `claude`)]
 .bedrock list-foundation-models --region us-east-1
+bedrock list-foundation-models   --region us-east-1   --query modelSummaries[?contains(modelId, `claude`)].modelId
+
+bedrock list-foundation-models --region us-east-1
