@@ -34,3 +34,5 @@ Thumbs.db
 
 # Environment variables
 .env
+.bedrock list-foundation-models   --region us-east-1   --query modelSummaries[?contains(modelId, `claude`)]
+.bedrock list-foundation-models --region us-east-1

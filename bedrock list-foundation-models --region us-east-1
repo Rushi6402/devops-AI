@@ -1,0 +1,236 @@
+{
+    "modelSummaries": [
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-nano-12b-v2",
+            "modelId": "nvidia.nemotron-nano-12b-v2",
+            "modelName": "NVIDIA Nemotron Nano 12B v2 VL BF16",
+            "providerName": "NVIDIA",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2025-12-02T00:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-coder-next",
+            "modelId": "qwen.qwen3-coder-next",
+            "modelName": "Qwen3 Coder Next",
+            "providerName": "Qwen",
+            "inputModalities": [
+                "TEXT"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2026-02-06T18:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0",
+            "modelId": "anthropic.claude-sonnet-4-20250514-v1:0",
+            "modelName": "Claude Sonnet 4",
+            "providerName": "Anthropic",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "modelLifecycle": {
+                "status": "LEGACY",
+                "startOfLifeTime": "2025-05-22T00:00:00+00:00",
+                "endOfLifeTime": "2026-10-14T08:00:00+00:00",
+                "legacyTime": "2026-04-14T08:00:00+00:00",
+                "publicExtendedAccessTime": "2026-07-14T08:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-4-5-20251001-v1:0",
+            "modelId": "anthropic.claude-haiku-4-5-20251001-v1:0",
+            "modelName": "Claude Haiku 4.5",
+            "providerName": "Anthropic",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2025-10-15T17:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k2.5",
+            "modelId": "moonshotai.kimi-k2.5",
+            "modelName": "Kimi K2.5",
+            "providerName": "Moonshot AI",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2026-02-06T18:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-oss-120b-1:0",
+            "modelId": "openai.gpt-oss-120b-1:0",
+            "modelName": "gpt-oss-120b",
+            "providerName": "OpenAI",
+            "inputModalities": [
+                "TEXT"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2025-08-06T00:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-creative-upscale-v1:0",
+            "modelId": "stability.stable-creative-upscale-v1:0",
+            "modelName": "Stable Image Creative Upscale",
+            "providerName": "Stability AI",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "IMAGE"
+            ],
+            "responseStreamingSupported": false,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2025-09-03T17:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/qwen.qwen3-next-80b-a3b",
+            "modelId": "qwen.qwen3-next-80b-a3b",
+            "modelName": "Qwen3 Next 80B A3B",
+            "providerName": "Qwen",
+            "inputModalities": [
+                "TEXT"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2025-12-02T00:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5",
+            "modelId": "anthropic.claude-fable-5",
+            "modelName": "Claude Fable 5",
+            "providerName": "Anthropic",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "INFERENCE_PROFILE"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2026-06-09T10:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/deepseek.v3.2",
+            "modelId": "deepseek.v3.2",
+            "modelName": "DeepSeek V3.2",
+            "providerName": "DeepSeek",
+            "inputModalities": [
+                "TEXT"
+            ],
+            "outputModalities": [
+                "TEXT"
+            ],
+            "responseStreamingSupported": true,
+            "customizationsSupported": [],
+            "inferenceTypesSupported": [
+                "ON_DEMAND"
+            ],
+            "modelLifecycle": {
+                "status": "ACTIVE",
+                "startOfLifeTime": "2026-02-06T18:00:00+00:00"
+            }
+        },
+        {
+            "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-2-multimodal-embeddings-v1:0",
+            "modelId": "amazon.nova-2-multimodal-embeddings-v1:0",
+            "modelName": "Amazon Nova Multimodal Embeddings",
+            "providerName": "Amazon",
+            "inputModalities": [
+                "TEXT",
+                "IMAGE",
+                "AUDIO",
+                "VIDEO"
+            ],
+            "outputModalities": [
+                "EMBEDDING"
+            ],
+            "responseStreamingSupported": fal
